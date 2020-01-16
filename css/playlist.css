@@ -1,0 +1,74 @@
+.song-genre {
+    font-size: 18px;
+    font-family: Lato;
+    margin-bottom: 5px;
+}
+.playlist-text-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.playlist-title {
+    font-size: 24px;
+    font-family: Lato;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#playlist {
+    background-color: #000000;
+}
+.details-addtocart-button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #213c69;
+    padding: 5px 15px;
+    font-family: Lato;
+}
+.details-addtocart-button-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.details-menu {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details-menu-button {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #213c69;
+    font-family: Lato;
+}
+.details-text-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.details-text-title {
+    font-size: 24px;
+    font-family: Lato;
+}
+.details-text-subtitle {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: Lato;
+}
+.details-text {
+    font-size: 16px;
+    font-family: Raleway;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 500px) {
+    .main-container {
+        margin: 0 auto;
+    }
+    .product-details-image-container {
+        text-align: center;
+    }
+    .playlist-text-container {
+        width:60%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

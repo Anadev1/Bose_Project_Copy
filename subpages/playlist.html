@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bose | Playlist</title>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A list of songs from different genres so that the user can test headphones.">
+    <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/playlist.css">
+    <meta name="robots" content="noindex" />
+</head>
+
+<body>
+    <div class="wrapper-container">
+        <header class="header-container">
+            <div class="another-header-container">
+            <div class="logo-container">
+                <a href="../index.html"> <img src="../images/bose_logo.jpg" alt="Bose logo" class="logo"></a>
+            </div>
+            <nav class="navigation-container">
+                <a href="noise-cancelling.html" class="navlink">Noise-cancelling technology</a>
+                <a href="headphones.html" class="navlink">Headphones</a>
+                <a href="tips.html" class="navlink">Tips</a>
+            </nav>
+            <div class="searchbar-container">
+                <form class="form_container" action="#">
+                    <input type="text" placeholder="Search.." name="search" class="input_searchfield">
+                    <button type="submit" class="searchbutton"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="cart-container">
+                <a href="cart.html"><i class="fas fa-shopping-cart link"></i></a>
+            </div>
+                </div>
+            <div class="menu-container">
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="mobilemenu">
+                    <li><a href="noise-cancelling.html" class="navlink-mobile">Noise-cancelling technology</a></li>
+                    <li><a href="headphones.html" class="navlink-mobile">Headphones</a></li>
+                    <li><a href="tips.html" class="navlink-mobile">Tips</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="main-container">
+          <div class="product-details-image-container">
+            <img src="../images/QuietComfort_35_II_Silver_small.jpg" alt="headphones" class="product-details-image">
+            </div>
+            <div class="details-addtocart-button-container">
+            <a href="#" class="details-addtocart-button">Add to cart</a>
+            </div>
+            <div class="details-menu">
+            <a href="QuietComfort35.html" class="details-menu-button" >Details</a>
+            <a href="QuietComfort35-reviews.html" class="details-menu-button">Reviews</a>
+            <a href="playlist.html" class="details-menu-button" id="playlist">Playlist</a>
+            </div>
+            <div class="playlist-text-container">
+              <p class="playlist-title">"Try your headphones" playlist</p>
+                <p class="song-genre">Indie-pop</p>
+                <iframe src="https://open.spotify.com/embed/track/7yq4Qj7cqayVTp3FF9CWbm" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="song-genre">Rock</p>
+                <iframe src="https://open.spotify.com/embed/track/2Cdvbe2G4hZsnhNMKyGrie" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="song-genre">Pop</p>
+                <iframe src="https://open.spotify.com/embed/track/1M4qEo4HE3PRaCOM7EXNJq" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="song-genre">Hip-Hop</p>
+                <iframe src="https://open.spotify.com/embed/track/2igwFfvr1OAGX9SKDCPBwO" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="song-genre">Jazz</p>
+                <iframe src="https://open.spotify.com/embed/track/0E8q2Fx2XuzXCO2NSAppkR" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="song-genre">Blues</p>
+                <iframe src="https://open.spotify.com/embed/track/4VCl2a5JvdrEx6PL2P29ty" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="song-genre">Funk</p>
+                <iframe src="https://open.spotify.com/embed/track/7KMa16GMB7qrvaYHVOZWg8" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </main>
+               <footer class="footer-container">
+            <div class="newsletter-container">
+                <button type="button" class="newsletter-button" onclick="document.getElementById('modal_id').style.display='block';">Subscribe to newsletter<div><i class="envelope-icon far fa-envelope"></i></div></button>
+
+            </div>
+            <div class="some-container">
+                <p class="follow-text">Follow us on social media</p>
+                <div class="icons-container">
+                    <a href="https://www.facebook.com/Bose" class="link"><i class=" some-icon fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/Bose" class="link"><i class=" some-icon fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/bose/" class="link"><i class=" some-icon fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/Bose" class="link"><i class=" some-icon fab fa-youtube-square"></i></a>
+                    </div>
+            </div>
+        </footer>
+    </div>
+     <div id="modal_id" class="modal animate">
+
+        <div class="modal-content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <form class="newsletter-container">
+                <div class="details-container">
+                    <input type="text" class="input-container" placeholder="Name"  name="name" required>
+                    <input type="text" class="input-container" placeholder="Email" name="mail" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe" >I want to receive news from the magazine.
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Subscribe" class="subscribe-button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body></html>

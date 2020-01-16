@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bose | Homepage</title>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Homepage of Bose's online store which focuses on noise-cancelling technology and noise-cancelling headphones. ">
+    <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="robots" content="noindex" />
+</head>
+<body>
+    <div class="wrapper-container">
+        <header class="header-container">
+            <div class="another-header-container">
+                <div class="logo-container">
+                    <a href="index.html"><img src="images/bose_logo.jpg" alt="Bose logo" class="logo"></a>
+                </div>
+                <nav class="navigation-container">
+                    <a href="subpages/noise-cancelling.html" class="navlink">Noise-cancelling technology</a>
+                    <a href="subpages/headphones.html" class="navlink">Headphones</a>
+                    <a href="subpages/tips.html" class="navlink">Tips</a>
+                </nav>
+                <div class="searchbar-container">
+                    <form class="form_container" action="#">
+                        <input type="text" placeholder="Search.." name="search" class="input_searchfield">
+                        <button type="submit" class="searchbutton"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="cart-container">
+                    <a href="subpages/cart.html"><i class="fas fa-shopping-cart link"></i></a>
+                </div>
+            </div>
+            <div class="menu-container">
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="mobilemenu">
+                    <li><a href="subpages/noise-cancelling.html" class="navlink-mobile">Noise-cancelling technology</a></li>
+                    <li><a href="subpages/headphones.html" class="navlink-mobile">Headphones</a></li>
+                    <li><a href="subpages/tips.html" class="navlink-mobile">Tips</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="main-container">
+                <div class="slideshow-container"></div>
+        </main>
+        <footer class="footer-container">
+            <div class="newsletter-container">
+                <button type="button" class="newsletter-button" onclick="document.getElementById('modal_id').style.display='block';">Subscribe to newsletter<div><i class="envelope-icon far fa-envelope"></i></div></button>
+
+            </div>
+            <div class="some-container">
+                <p class="follow-text">Follow us on social media</p>
+                <div class="icons-container">
+                    <a href="https://www.facebook.com/Bose" class="link"><i class=" some-icon fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/Bose" class="link"><i class=" some-icon fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/bose/" class="link"><i class=" some-icon fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/Bose" class="link"><i class=" some-icon fab fa-youtube-square"></i></a>
+                    </div>
+            </div>
+        </footer>
+    </div>
+     <div id="modal_id" class="modal animate">
+
+        <div class="modal-content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <form class="newsletter-container">
+                <div class="details-container">
+                    <input type="text" class="input-container" placeholder="Name"  name="name" required>
+                    <input type="text" class="input-container" placeholder="Email" name="mail" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe" >I want to receive news from the magazine.
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Subscribe" class="subscribe-button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body></html>
